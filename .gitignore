@@ -1,0 +1,46 @@
+# ==========================================
+# 1. VS Code & Editor Settings
+# ==========================================
+.vscode/
+*.code-workspace
+.history/
+
+# ==========================================
+# 2. Python Virtual Environments (Crucial)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+custom_venv/
+pip-log.txt
+
+# ==========================================
+# 3. Python Caches and Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ==========================================
+# 4. Ubuntu / Linux System Files
+# ==========================================
+.directory
+*~
+.fuse_hidden*
+.Trash-*
+
+# ==========================================
+# 5. Security Secrets & Environment Variables
+# ==========================================
+.env
+.env.*
+*.env
+*.pem
+*.key
