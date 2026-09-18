@@ -1,0 +1,12 @@
+# Goal
+string mission_file          # name of a .yaml file in this package's share/missions directory
+---
+# Result
+bool success
+float32 total_distance
+int32 waypoints_completed
+---
+# Feedback
+int32 current_waypoint_index
+string status                 # e.g. "en route to waypoint 2/4" or "returning to base"
+float32 distance_to_target
